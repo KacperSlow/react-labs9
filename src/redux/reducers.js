@@ -1,4 +1,7 @@
-import { EMPLOYEES_LOADED } from './constants';
+import {
+  EMPLOYEES_LOADED,
+  EMPLOYEE_ADD
+ } from './constants';
 
 export const initialState = {
   employees: [],
@@ -12,6 +15,12 @@ const appReducer = (state = initialState, action) => {
       const { employees } = action.payload;
       // CAREFUL: You can't modify state variable directly.
       return Object.assign({}, state, { employees });
+    }
+    case EMPLOYEE_ADD:{
+      const { NewEmployee } = action.payload;
+      // CAREFUL: You can't modify state variable directly.
+      const employee=[...state.employees,NewEmployee]
+      return Object.assign({}, state, { employees: employee });
     }
     default:
         return state
