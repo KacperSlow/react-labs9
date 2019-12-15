@@ -151,27 +151,6 @@
       "name": "Rosanna Newman",
       "company": "EXIAND",
       "email": "rosannanewman@exiand.com"
-    },
-    {
-      "id": 1576418701887,
-      "name": "",
-      "age": 1,
-      "company": "",
-      "email": ""
-    },
-    {
-      "id": 1576419150092,
-      "name": "John",
-      "age": 18,
-      "company": "PW",
-      "email": "sasa@was.pl"
-    },
-    {
-      "id": 1576422779911,
-      "name": "Kacper",
-      "age": 18,
-      "company": "Politechnika Warszawska",
-      "email": "aks@ks.pl"
     }
   ]
 }
