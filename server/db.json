@@ -159,5 +159,11 @@
       "company": "KKP",
       "email": "kapers@kkp.pl"
     }
-  ]
+  ],
+  "users":[
+    {
+      "username": "john",
+      "fullName": "John Doe"
+    }
+  ]	  
 }
